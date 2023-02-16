@@ -6,6 +6,7 @@ div {
 table {
     border: 0.2px solid gray;
     border-collapse: collapse;
+    margin: 30px;
 }
 
 th, tb {
