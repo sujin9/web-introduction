@@ -2,3 +2,16 @@ div {
     border: 1px solid black;
     padding: 3%;
 }
+
+table {
+    border: 0.2px solid gray;
+    border-collapse: collapse;
+}
+
+th, tb {
+    border: 0.2px solid grey;
+}
+
+.movie_img {
+    width: 300;
+}
