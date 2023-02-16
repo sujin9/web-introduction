@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>하티의 자기소개</title>
     <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="../js/script.js" defer></script>
 </head>
 
 <body>
@@ -66,14 +67,14 @@
     </div>
     <div id="section_guest_book">
         <h1>방명록</h1>
-        <p>이름: <input type="text"></p>
+        <p>이름: <input type="text" id="visitor_name"></p>
         <p>본인 취향 영화</p>
         <label><input type="checkbox" name="fav_movie" value="movie1">중경삼림</label>
         <label><input type="checkbox" name="fav_movie" value="movie2">어바웃 타임</label>
         <label><input type="checkbox" name="fav_movie" value="movie3">아이언맨</label>
         <label><input type="checkbox" name="fav_movie" value="movie4">세 얼간이</label>
         <label><input type="checkbox" name="fav_movie" value="movie5">귀멸의 칼날: 무한열차편</label>
-        <p><input type="button" value="등록"> <input type="reset" value="취소"></p>
+        <p><input type="button" value="등록" id="button_submit"> <input type="reset" value="취소"></p>
     </div>
 </body>
 
